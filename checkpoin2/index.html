@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint2</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<body style="background-color: rgba(16, 112, 236, 0.13);"> 
+<div class="box">
+    <form action="">
+        <fieldset>
+            <legend><strong>Fórmulário de Cadastro</strong></legend>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" maxlength="100" required >
+                <label for="nome" class="labelInput">Nome completo</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="email" id="email" class="inputUser" required>
+                <label for="email" class="labelInput">Email</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="number" name="telefone" id="telefone" class="inputUser" required>
+                <label for="telefone" class="labelInput">Telefone</label>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">LGBT+</label>
+                <br><br>
+                <p>É maior de idade?</p>
+                <input type="radio" id="sim" name="maiorIdade" value="sim" required>
+                <label for="sim">Sim</label>
+                <input type="radio" id="nao" name="maiorIdade" value="nao" required>
+                <label for="nao">Não</label>
+            </div>
+            <br>
+            <label for="data_nascimento"><strong>Data de Nascimento:</strong></label>
+            <input type="date" name="data_nascimento" id="data_nascimento" required>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                <label for="cidade" class="labelInput">Cidade</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="estado" id="estado" class="inputUser" required>
+                <label for="estado" class="labelInput">Estado</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                <label for="endereco" class="labelInput">Endereço</label>
+            </div>
+            <fieldset class="fieldset">
+                <legend>Quais locais gostaria de conhecer?</legend>
+                <select name="opcoes" id="opcoes" required class="lugares">
+                    <option value="pracaDosTresPoderes">Praça dos Três Poderes</option>
+                    <option value="chapadaDosViadeiros">Chapada dos Viadeiros</option>
+                    <option value="pirenópolis">Pirenópolis</option>
+                </select>
+                <legend>Quais das alternativas é mais boa:</legend>
+                <input type="checkbox" name="estudante" id="estudante">
+                <label for="estudante">Estudante</label>
+                <input type="checkbox" name="turista" id="turista">
+                <label for="turista">Turista</label>
+                <input type="checkbox" name="residente" id="residente">
+                <label for="residente">Residente</label>
+        
+            </fieldset>
+            <br>
+            <input type="reset" name="submit" id="submit">
+            <br><br>
+            <input type="submit" name="submit" id="submit">
+            <br><br>
+        </fieldset>
+    </form>
+    </div>
+</body>
+
+</html>
+            
+
+          
+
+            
+
+                             
+                             
+                             
+                             
+               
+                                      
+                          
+            
+      
