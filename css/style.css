@@ -4,13 +4,15 @@ body {
 
 .box {
   color: rgb(2, 36, 20);
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
   padding: 30px;
+  margin: 0 auto;
   border-radius: 20px;
   width: 30%;
+}
+
+.formulario {
+  text-align: center;
 }
 
 fieldset {
