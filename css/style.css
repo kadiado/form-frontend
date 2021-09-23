@@ -67,11 +67,12 @@ legend {
 #submit {
   background-image: linear-gradient(to right, rgb(125, 148, 196), rgb(22, 230, 245));
   text-align: center;
-  width: 100%;
+  width: 60%;
   border: none;
   padding: 25px 10px;
-  color: rgb(2, 0, 14);
+  color: white;
   font-size: 15px;
+  font-weight: bold;
   cursor: pointer;
   border-radius: 3px;
 }
