@@ -5,7 +5,7 @@ body {
 .box {
   color: rgb(2, 36, 20);
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 30px;
@@ -60,9 +60,6 @@ legend {
   border-radius: 10px;
   outline: none;
   font-size: 10px;
-}
-
-.lugares {
 }
 
 #submit {
