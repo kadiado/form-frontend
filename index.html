@@ -58,14 +58,15 @@
                 <input type="text" name="endereco" id="endereco" class="inputUser" required>
                 <label for="endereco" class="labelInput">Endereço</label>
             </div>
-            <fieldset class="fieldset">
+            <fieldset class="fieldset centralizado">
                 <legend>Quais locais gostaria de conhecer?</legend>
                 <select name="opcoes" id="opcoes" required class="lugares">
+                    <option value=""></option>
                     <option value="pracaDosTresPoderes">Praça dos Três Poderes</option>
                     <option value="chapadaDosViadeiros">Chapada dos Viadeiros</option>
                     <option value="pirenópolis">Pirenópolis</option>
                 </select>
-                <legend>Quais das alternativas é mais boa:</legend>
+                <legend>Selecione seu perfil:</legend>
                 <input type="checkbox" name="estudante" id="estudante">
                 <label for="estudante">Estudante</label>
                 <input type="checkbox" name="turista" id="turista">
@@ -73,12 +74,14 @@
                 <input type="checkbox" name="residente" id="residente">
                 <label for="residente">Residente</label>
         
-            </fieldset>
-            <br>
-            <input type="reset" name="submit" id="submit">
-            <br><br>
-            <input type="submit" name="submit" id="submit">
-            <br><br>
+            </fieldset >
+            <div class="centralizado">
+                <br>
+                <input type="reset" name="submit" id="submit">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+                <br><br>
+            </div>
         </fieldset>
     </form>
     </div>

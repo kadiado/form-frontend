@@ -4,14 +4,14 @@ body {
 
 .box {
   color: rgb(2, 36, 20);
-  text-align: center;
+
   padding: 30px;
   margin: 0 auto;
   border-radius: 20px;
   width: 30%;
 }
 
-.formulario {
+.centralizado {
   text-align: center;
 }
 
@@ -39,6 +39,12 @@ legend {
   font-size: 18px;
   width: 100%;
   letter-spacing: 1px;
+}
+
+select,
+option {
+  width: 300px;
+  height: 40px;
 }
 
 .labelInput {
